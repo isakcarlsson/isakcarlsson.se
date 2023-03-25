@@ -1,0 +1,40 @@
+html {
+  --primary-color: #8D7B68;
+  --secondary-color: #A4907C;
+  --tertiary-color: #F1DEC9;
+  --text-color:#ece3d8;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+header nav ul {
+  display: flex;
+  text-decoration: none;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  color: var(--text-color);
+  font-size: large;
+}
